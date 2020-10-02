@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+/* Constant stylings */
 html, body {
     height: 100%;
     width: 100%;
@@ -104,7 +104,7 @@ html, body {
 
 .fun {
     width: 100%;
-    margin: -bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .gif {
@@ -144,6 +144,32 @@ html, body {
 .fa-instagram:hover,
 .fa-youtube:hover {
     color: #d5d5d5;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+} 
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
 }
 
 /*---Media Queries --*/
